@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: acf8e7c6211d47045a0288178dcac305
+guid: 65a9b7a71654a8c488a575efdaddfc28
 TextureImporter:
   fileIDToRecycleName:
     21300000: RockChunks_0
@@ -7,7 +7,7 @@ TextureImporter:
     21300004: RockChunks_2
     21300006: RockChunks_3
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
