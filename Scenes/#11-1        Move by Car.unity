@@ -1835,6 +1835,61 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &457579120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 457579122}
+  - component: {fileID: 457579121}
+  m_Layer: 0
+  m_Name: reverb
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!167 &457579121
+AudioReverbZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457579120}
+  m_Enabled: 1
+  m_MinDistance: 94.55553
+  m_MaxDistance: 94.55553
+  m_ReverbPreset: 27
+  m_Room: -815
+  m_RoomHF: -2750
+  m_DecayTime: 1
+  m_DecayHFRatio: 1
+  m_Reflections: -2228
+  m_ReflectionsDelay: 0.02
+  m_Reverb: 1185
+  m_ReverbDelay: 0.0195
+  m_HFReference: 7677
+  m_Diffusion: 9.3
+  m_Density: 52.1
+  m_LFReference: 384
+  m_RoomLF: -5705
+--- !u!4 &457579122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457579120}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 22.8, y: 2, z: 1.1786026}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &461876878
 GameObject:
   m_ObjectHideFlags: 0
@@ -2022,18 +2077,18 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 243127615990564450, guid: c84fba084004e427aa9336b84791d6d5,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: d6247f5615f32d3438c102da20d964ae, type: 3}
-  m_PlayOnAwake: 0
+  m_audioClip: {fileID: 8300000, guid: 33bece6d8dc00fe4ca46a6fff92514d1, type: 3}
+  m_PlayOnAwake: 1
   m_Volume: 0.417
   m_Pitch: 1.17
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 6.586979
-  MaxDistance: 500
+  MinDistance: 1
+  MaxDistance: 7
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -2116,11 +2171,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 509334316}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.51286, y: -0.2441044, z: 0.06640625}
+  m_LocalPosition: {x: 0, y: -2.95, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 5522106745419604339}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &509334319
 MonoBehaviour:
@@ -3897,24 +3952,6 @@ MonoBehaviour:
           m_Calls: []
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-    - ID: onehanded_loot7
-      eventKeyframe: 7
-      onKeyframe:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 5522106745419604349}
-            m_MethodName: SendEvent
-            m_Mode: 5
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: Loot
-              m_BoolArgument: 0
-            m_CallState: 2
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
   - clip: {fileID: 74036427761100570, guid: 6ac029c3d454440b3a6eb9bb51cda2e3, type: 2}
     keyframeEvents:
     - ID: onehanded_throw0
@@ -3942,24 +3979,6 @@ MonoBehaviour:
             m_CallState: 2
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-    - ID: onehanded_throw21
-      eventKeyframe: 21
-      onKeyframe:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 5522106744330361878}
-            m_MethodName: Throw
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
   - clip: {fileID: 74569567991267122, guid: 6ac029c3d454440b3a6eb9bb51cda2e3, type: 2}
     keyframeEvents:
     - ID: twohanded_hammer_attack_10
@@ -3983,93 +4002,6 @@ MonoBehaviour:
               m_IntArgument: 0
               m_FloatArgument: 0
               m_StringArgument: ResetAction
-              m_BoolArgument: 0
-            m_CallState: 2
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-    - ID: twohanded_hammer_attack_114
-      eventKeyframe: 14
-      onKeyframe:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 5522106745586482027}
-            m_MethodName: StartQueuing
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-          - m_Target: {fileID: 5522106745419604336}
-            m_MethodName: AddCalibratedForwardForce
-            m_Mode: 4
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 4
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-          - m_Target: {fileID: 5522106745586482025}
-            m_MethodName: SetStagger
-            m_Mode: 4
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 1
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-    - ID: twohanded_hammer_attack_126
-      eventKeyframe: 26
-      onKeyframe:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 5522106745586482027}
-            m_MethodName: StartQueuing
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-    - ID: twohanded_hammer_attack_129
-      eventKeyframe: 29
-      onKeyframe:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 5522106745419604349}
-            m_MethodName: SendEvent
-            m_Mode: 5
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: TrySetNextAction
-              m_BoolArgument: 0
-            m_CallState: 2
-          - m_Target: {fileID: 5522106745586482025}
-            m_MethodName: Disable
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
@@ -4116,24 +4048,6 @@ MonoBehaviour:
       onKeyframe:
         m_PersistentCalls:
           m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-    - ID: onehanded_landing7
-      eventKeyframe: 7
-      onKeyframe:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 5522106745419604349}
-            m_MethodName: SendEvent
-            m_Mode: 5
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: Loot
-              m_BoolArgument: 0
-            m_CallState: 2
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
 --- !u!114 &632445266
@@ -5400,7 +5314,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &824089242 stripped
 Transform:
@@ -10285,17 +10199,17 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 243127615990564450, guid: c84fba084004e427aa9336b84791d6d5,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: f3bca24aba588914597008e572c17788, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 0.532
-  m_Pitch: 0.52
-  Loop: 0
+  m_Pitch: 1.08
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 6.586979
-  MaxDistance: 500
+  MinDistance: 1
+  MaxDistance: 7
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -10378,11 +10292,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1435182770}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.51286, y: -0.2441044, z: 0.06640625}
+  m_LocalPosition: {x: 0, y: -2.95, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 5522106745419604339}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1456033706
 GameObject:
@@ -14528,24 +14442,6 @@ MonoBehaviour:
           m_Calls: []
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-    - ID: onehanded_loot7
-      eventKeyframe: 7
-      onKeyframe:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 5522106745419604349}
-            m_MethodName: SendEvent
-            m_Mode: 5
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: Loot
-              m_BoolArgument: 0
-            m_CallState: 2
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
   - clip: {fileID: 74036427761100570, guid: 6ac029c3d454440b3a6eb9bb51cda2e3, type: 2}
     keyframeEvents:
     - ID: onehanded_throw0
@@ -14573,24 +14469,6 @@ MonoBehaviour:
             m_CallState: 2
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-    - ID: onehanded_throw21
-      eventKeyframe: 21
-      onKeyframe:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 5522106744330361878}
-            m_MethodName: Throw
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
   - clip: {fileID: 74569567991267122, guid: 6ac029c3d454440b3a6eb9bb51cda2e3, type: 2}
     keyframeEvents:
     - ID: twohanded_hammer_attack_10
@@ -14614,93 +14492,6 @@ MonoBehaviour:
               m_IntArgument: 0
               m_FloatArgument: 0
               m_StringArgument: ResetAction
-              m_BoolArgument: 0
-            m_CallState: 2
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-    - ID: twohanded_hammer_attack_114
-      eventKeyframe: 14
-      onKeyframe:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 5522106745586482027}
-            m_MethodName: StartQueuing
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-          - m_Target: {fileID: 5522106745419604336}
-            m_MethodName: AddCalibratedForwardForce
-            m_Mode: 4
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 4
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-          - m_Target: {fileID: 5522106745586482025}
-            m_MethodName: SetStagger
-            m_Mode: 4
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 1
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-    - ID: twohanded_hammer_attack_126
-      eventKeyframe: 26
-      onKeyframe:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 5522106745586482027}
-            m_MethodName: StartQueuing
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-    - ID: twohanded_hammer_attack_129
-      eventKeyframe: 29
-      onKeyframe:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 5522106745419604349}
-            m_MethodName: SendEvent
-            m_Mode: 5
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: TrySetNextAction
-              m_BoolArgument: 0
-            m_CallState: 2
-          - m_Target: {fileID: 5522106745586482025}
-            m_MethodName: Disable
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
@@ -14747,24 +14538,6 @@ MonoBehaviour:
       onKeyframe:
         m_PersistentCalls:
           m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-    - ID: onehanded_landing7
-      eventKeyframe: 7
-      onKeyframe:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 5522106745419604349}
-            m_MethodName: SendEvent
-            m_Mode: 5
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: Loot
-              m_BoolArgument: 0
-            m_CallState: 2
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
 --- !u!210 &703002797206693719
@@ -15150,10 +14923,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d56e347d792d465f9ee57c826ebcc8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  generators:
-  - id: hit
-    transform: {fileID: 5522106744744161541}
-    vfxItem: {fileID: 11400000, guid: 2dd68209a44c2452f995f4027b6449be, type: 2}
 --- !u!4 &5334317228117765529
 Transform:
   m_ObjectHideFlags: 0
@@ -16456,6 +16225,8 @@ Transform:
   - {fileID: 5334317227846078341}
   - {fileID: 5522106745415675328}
   - {fileID: 5522106745737557378}
+  - {fileID: 509334318}
+  - {fileID: 1435182773}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
