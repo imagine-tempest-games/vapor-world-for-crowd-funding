@@ -16571,7 +16571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2c371e01a6e745c98c8aecc0c234e60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerBT: {fileID: 5522106745419604349}
+  behavior: {fileID: 0}
   discoveredRecipes: {fileID: 11400000, guid: eabb200eccee94b17a7e374c4d5adaf3, type: 2}
   inventory: {fileID: 5522106744131542260}
   quickSlot: {fileID: 5522106744858401456}
@@ -16634,7 +16634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: caf52be5ea27341c486694f611ca354e, type: 2}
+  sharedProfile: {fileID: 11400000, guid: c2bc167b3c0cc4c28b1f812631d1c9c9, type: 2}
   isGlobal: 1
   blendDistance: 0
   weight: 1
