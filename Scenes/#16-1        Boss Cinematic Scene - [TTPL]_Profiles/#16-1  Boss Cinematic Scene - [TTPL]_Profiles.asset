@@ -1498,8 +1498,8 @@ MonoBehaviour:
     overrideState: 1
     value: -0.23
   maxLuminance:
-    overrideState: 0
-    value: 9
+    overrideState: 1
+    value: -0.23
   keyValue:
     overrideState: 0
     value: 0.93
