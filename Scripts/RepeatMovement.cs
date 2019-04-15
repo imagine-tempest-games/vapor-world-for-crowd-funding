@@ -19,6 +19,16 @@ public class RepeatMovement : MonoBehaviour
     }
 
 
+    public void SetSpeedX(float x)
+    {
+        speed.x = x;
+    }
+
+    public void SetSpeedY(float y)
+    {
+        speed.y = y;
+    }
+
     private void Update()
     {
         myTrans.Translate(speed * Time.deltaTime);

@@ -1,0 +1,97 @@
+
+crow.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+flying 1
+  rotate: true
+  xy: 792, 21
+  size: 788, 590
+  orig: 788, 590
+  offset: 0, 0
+  index: -1
+flying 2
+  rotate: false
+  xy: 2, 2
+  size: 788, 472
+  orig: 788, 472
+  offset: 0, 0
+  index: -1
+flying 3
+  rotate: false
+  xy: 2, 1268
+  size: 788, 772
+  orig: 788, 772
+  offset: 0, 0
+  index: -1
+idle_body
+  rotate: false
+  xy: 792, 1421
+  size: 788, 619
+  orig: 788, 619
+  offset: 0, 0
+  index: -1
+idle_head
+  rotate: false
+  xy: 1582, 1763
+  size: 179, 110
+  orig: 179, 110
+  offset: 0, 0
+  index: -1
+idle_top body
+  rotate: true
+  xy: 1813, 1717
+  size: 159, 232
+  orig: 159, 232
+  offset: 0, 0
+  index: -1
+look_head
+  rotate: false
+  xy: 1582, 1651
+  size: 179, 110
+  orig: 179, 110
+  offset: 0, 0
+  index: -1
+look_top body
+  rotate: true
+  xy: 1582, 1875
+  size: 165, 229
+  orig: 165, 229
+  offset: 0, 0
+  index: -1
+start fly 1
+  rotate: false
+  xy: 792, 811
+  size: 790, 608
+  orig: 790, 608
+  offset: 0, 0
+  index: -1
+start fly 2
+  rotate: true
+  xy: 2, 476
+  size: 790, 608
+  orig: 790, 608
+  offset: 0, 0
+  index: -1
+start fly 3
+  rotate: true
+  xy: 1384, 24
+  size: 785, 588
+  orig: 785, 588
+  offset: 0, 0
+  index: -1
+turn_head
+  rotate: true
+  xy: 1763, 1610
+  size: 105, 114
+  orig: 105, 114
+  offset: 0, 0
+  index: -1
+turn_top body
+  rotate: true
+  xy: 1813, 1878
+  size: 162, 231
+  orig: 162, 231
+  offset: 0, 0
+  index: -1
