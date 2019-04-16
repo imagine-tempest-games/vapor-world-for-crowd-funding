@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class RepeatMovement : MonoBehaviour
 {
+    public Transform spawn;
     public Transform target;
+    
 
     public Vector3 speed;
 
@@ -23,10 +25,14 @@ public class RepeatMovement : MonoBehaviour
     {
         myTrans.Translate(speed * Time.deltaTime);
 
-        float dis = Vector2.Distance(target.transform.position, myTrans.position);
+        float dis  = target.transform.position.x - myTrans.position.x;
+        //float dis = Vector2.Distance(target.transform.position, myTrans.position);
         if(Mathf.Abs(dis) <= 1.0f)
         {
-            myTrans.position = originPos;
+            if (spawn)
+                myTrans.position = spawn.position;
+            else
+                myTrans.position = originPos;
         }
     }
 }
