@@ -956,6 +956,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &219604387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 219604388}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &219604388
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219604387}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 113.8, y: 1.6485693, z: -2.96875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &248713214
 GameObject:
   m_ObjectHideFlags: 0
@@ -1668,8 +1698,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f47d623e0520be849b78404b13c41792, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.7764706}
+  m_Sprite: {fileID: 21300000, guid: fab0f7bd8758a354f9c2e82e42c6cdbb, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.50980395}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1910,8 +1940,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f47d623e0520be849b78404b13c41792, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.7764706}
+  m_Sprite: {fileID: 21300000, guid: fab0f7bd8758a354f9c2e82e42c6cdbb, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.50980395}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -15707,8 +15737,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f47d623e0520be849b78404b13c41792, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.7764706}
+  m_Sprite: {fileID: 21300000, guid: fab0f7bd8758a354f9c2e82e42c6cdbb, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.50980395}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -16110,8 +16140,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f47d623e0520be849b78404b13c41792, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.7764706}
+  m_Sprite: {fileID: 21300000, guid: fab0f7bd8758a354f9c2e82e42c6cdbb, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.50980395}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -28334,8 +28364,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f47d623e0520be849b78404b13c41792, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.7764706}
+  m_Sprite: {fileID: 21300000, guid: fab0f7bd8758a354f9c2e82e42c6cdbb, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.50980395}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -33878,8 +33908,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f47d623e0520be849b78404b13c41792, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.7764706}
+  m_Sprite: {fileID: 21300000, guid: fab0f7bd8758a354f9c2e82e42c6cdbb, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.50980395}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -34275,8 +34305,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f47d623e0520be849b78404b13c41792, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.7764706}
+  m_Sprite: {fileID: 21300000, guid: fab0f7bd8758a354f9c2e82e42c6cdbb, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.50980395}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -40346,7 +40376,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: {fileID: 5334317227720180219}
-  behaviorTree: {fileID: 5522106745419604349}
+  behaviorTree: {fileID: 0}
   forward: {fileID: 5522106745415675330}
   onDown:
     m_PersistentCalls:
@@ -40383,7 +40413,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: {fileID: 5334317227720180219}
   staggerResistance: {fileID: 5334317228797882607}
-  behaviorTree: {fileID: 5522106745419604349}
+  behaviorTree: {fileID: 0}
   forward: {fileID: 5522106745415675330}
   staggerRecovery: 0
   onStagger:
@@ -40480,14 +40510,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccfc051171e50482ba55125be67a5561, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  behaviorTree: {fileID: 5522106745419604349}
+  behaviorTree: {fileID: 0}
   motionCollider: {fileID: 5522106744744161528}
   CalibratedAscendPosition: {x: -0.4, y: 1}
   correctionPositionX: 0.478
   onGrab:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5522106745419604336}
+      - m_Target: {fileID: 0}
         m_MethodName: ZeroGravityScale
         m_Mode: 1
         m_Arguments:
@@ -40509,7 +40539,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 5522106745419604336}
+      - m_Target: {fileID: 0}
         m_MethodName: Stop
         m_Mode: 1
         m_Arguments:
@@ -40525,7 +40555,7 @@ MonoBehaviour:
   onClimb:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5522106745419604336}
+      - m_Target: {fileID: 0}
         m_MethodName: RecoveryGravity
         m_Mode: 1
         m_Arguments:
@@ -41136,7 +41166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4770310f5600d499fbf96ec058b34abe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  behaviorTree: {fileID: 5522106745419604349}
+  behaviorTree: {fileID: 0}
   container: {fileID: 5522106744625941547}
   equipper: {fileID: 5522106744663623584}
   forward: {fileID: 5522106745415675330}
@@ -41162,7 +41192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e1210a3989b3c14dbb35d8c267d2487, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bt: {fileID: 5522106745419604349}
+  bt: {fileID: 0}
 --- !u!4 &5522106744330403841
 Transform:
   m_ObjectHideFlags: 0
@@ -41668,7 +41698,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30cb00ddfe486420ab8266b93b1754be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startDirection: 0
+  startDirection: 1
   onFlipX:
     m_PersistentCalls:
       m_Calls: []
@@ -41691,20 +41721,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &5522106745419604336
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5522106745419604350}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bdb044f24e91e04984e3a8dc4bd65d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rigidbody2D: {fileID: 5522106745419604338}
-  forward: {fileID: 5522106745415675330}
 --- !u!50 &5522106745419604338
 Rigidbody2D:
   serializedVersion: 4
@@ -41744,78 +41760,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5522106745419604349
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5522106745419604350}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d7b55c7ecdb49a4a89fa5e6f9022861, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startWhenEnabled: 1
-  pauseWhenDisabled: 0
-  restartWhenComplete: 1
-  logTaskChanges: 0
-  group: 0
-  resetValuesOnRestart: 0
-  externalBehavior: {fileID: 0}
-  mBehaviorSource:
-    behaviorName: Player
-    behaviorDescription: 
-    mTaskData:
-      types: []
-      parentIndex: 
-      startIndex: 
-      variableStartIndex: 
-      JSONSerialization: "{\n\t\"EntryTask\":{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.Tasks.EntryTask\",\n\t\t\"NodeData\":{\n\t\t\t\"Offset\":\"(274,-110.3198)\"\n\t\t},\n\t\t\"ID\":0,\n\t\t\"Name\":\"Entry\",\n\t\t\"Instant\":true\n\t},\n\t\"RootTask\":{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.Tasks.Selector\",\n\t\t\"NodeData\":{\n\t\t\t\"Offset\":\"(0,120)\"\n\t\t},\n\t\t\"ID\":1,\n\t\t\"Name\":\"Selector\",\n\t\t\"Instant\":true,\n\t\t\"AbortTypeabortType\":\"None\",\n\t\t\"Children\":[{\n\t\t\t\"Type\":\"BehaviorDesigner.Runtime.Tasks.BehaviorTreeReference\",\n\t\t\t\"NodeData\":{\n\t\t\t\t\"Offset\":\"(-1203.40259,180)\"\n\t\t\t},\n\t\t\t\"ID\":2,\n\t\t\t\"Name\":\"throw\",\n\t\t\t\"Instant\":true,\n\t\t\t\"ExternalBehavior[]externalBehaviors\":[0],\n\t\t\t\"SharedNamedVariable[]variables\":[],\n\t\t\t\"Booleancollapsed\":false\n\t\t},{\n\t\t\t\"Type\":\"BehaviorDesigner.Runtime.Tasks.BehaviorTreeReference\",\n\t\t\t\"NodeData\":{\n\t\t\t\t\"Offset\":\"(-1082.57312,175.1385)\"\n\t\t\t},\n\t\t\t\"ID\":3,\n\t\t\t\"Name\":\"Down\",\n\t\t\t\"Instant\":true,\n\t\t\t\"ExternalBehavior[]externalBehaviors\":[1],\n\t\t\t\"SharedNamedVariable[]variables\":[],\n\t\t\t\"Booleancollapsed\":false\n\t\t},{\n\t\t\t\"Type\":\"BehaviorDesigner.Runtime.Tasks.BehaviorTreeReference\",\n\t\t\t\"NodeData\":{\n\t\t\t\t\"Offset\":\"(-810,180)\"\n\t\t\t},\n\t\t\t\"ID\":4,\n\t\t\t\"Name\":\"EquipmentContinuousAction\",\n\t\t\t\"Instant\":true,\n\t\t\t\"ExternalBehavior[]externalBehaviors\":[2],\n\t\t\t\"SharedNamedVariable[]variables\":[],\n\t\t\t\"Booleancollapsed\":false\n\t\t},{\n\t\t\t\"Type\":\"BehaviorDesigner.Runtime.Tasks.BehaviorTreeReference\",\n\t\t\t\"NodeData\":{\n\t\t\t\t\"Offset\":\"(-506.476563,180)\"\n\t\t\t},\n\t\t\t\"ID\":5,\n\t\t\t\"Name\":\"Interact\",\n\t\t\t\"Instant\":true,\n\t\t\t\"ExternalBehavior[]externalBehaviors\":[3],\n\t\t\t\"SharedNamedVariable[]variables\":[],\n\t\t\t\"Booleancollapsed\":false\n\t\t},{\n\t\t\t\"Type\":\"BehaviorDesigner.Runtime.Tasks.BehaviorTreeReference\",\n\t\t\t\"NodeData\":{\n\t\t\t\t\"Offset\":\"(-390.759033,180)\"\n\t\t\t},\n\t\t\t\"ID\":6,\n\t\t\t\"Name\":\"Jump\",\n\t\t\t\"Instant\":true,\n\t\t\t\"ExternalBehavior[]externalBehaviors\":[4],\n\t\t\t\"SharedNamedVariable[]variables\":[],\n\t\t\t\"Booleancollapsed\":false\n\t\t},{\n\t\t\t\"Type\":\"BehaviorDesigner.Runtime.Tasks.BehaviorTreeReference\",\n\t\t\t\"NodeData\":{\n\t\t\t\t\"Offset\":\"(-283.417358,180)\"\n\t\t\t},\n\t\t\t\"ID\":7,\n\t\t\t\"Name\":\"Roll\",\n\t\t\t\"Instant\":true,\n\t\t\t\"ExternalBehavior[]externalBehaviors\":[5],\n\t\t\t\"SharedNamedVariable[]variables\":[],\n\t\t\t\"Booleancollapsed\":false\n\t\t},{\n\t\t\t\"Type\":\"BehaviorDesigner.Runtime.Tasks.BehaviorTreeReference\",\n\t\t\t\"NodeData\":{\n\t\t\t\t\"Offset\":\"(-170,180)\"\n\t\t\t},\n\t\t\t\"ID\":8,\n\t\t\t\"Name\":\"Run\",\n\t\t\t\"Instant\":true,\n\t\t\t\"ExternalBehavior[]externalBehaviors\":[6],\n\t\t\t\"SharedNamedVariable[]variables\":[],\n\t\t\t\"Booleancollapsed\":false\n\t\t},{\n\t\t\t\"Type\":\"BehaviorDesigner.Runtime.Tasks.Parallel\",\n\t\t\t\"NodeData\":{\n\t\t\t\t\"Offset\":\"(83.3995743,177.029312)\",\n\t\t\t\t\"Comment\":\"Idle
-        State\"\n\t\t\t},\n\t\t\t\"ID\":9,\n\t\t\t\"Name\":\"Parallel\",\n\t\t\t\"Instant\":true,\n\t\t\t\"AbortTypeabortType\":\"None\",\n\t\t\t\"Children\":[{\n\t\t\t\t\"Type\":\"BehaviorDesigner.Runtime.Tasks.BehaviorTreeReference\",\n\t\t\t\t\"NodeData\":{\n\t\t\t\t\t\"Offset\":\"(-144.470352,133.13147)\"\n\t\t\t\t},\n\t\t\t\t\"ID\":10,\n\t\t\t\t\"Name\":\"Equipment
-        Play : Idle\",\n\t\t\t\t\"Instant\":true,\n\t\t\t\t\"ExternalBehavior[]externalBehaviors\":[7],\n\t\t\t\t\"SharedNamedVariable[]variables\":[{\n\t\t\t\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedNamedVariable\",\n\t\t\t\t\t\"Name\":\"\",\n\t\t\t\t\t\"NamedVariablemValue\":{\n\t\t\t\t\t\t\"Stringname\":\"animationName\",\n\t\t\t\t\t\t\"Stringtype\":\"SharedString\",\n\t\t\t\t\t\t\"SharedVariablevalue\":{\n\t\t\t\t\t\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedString\",\n\t\t\t\t\t\t\t\"Name\":\"\",\n\t\t\t\t\t\t\t\"StringmValue\":\"Idle\"\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t}],\n\t\t\t\t\"Booleancollapsed\":false\n\t\t\t},{\n\t\t\t\t\"Type\":\"BehaviorDesigner.Runtime.Tasks.Selector\",\n\t\t\t\t\"NodeData\":{\n\t\t\t\t\t\"Offset\":\"(-3.12344265,133.097473)\"\n\t\t\t\t},\n\t\t\t\t\"ID\":11,\n\t\t\t\t\"Name\":\"Selector\",\n\t\t\t\t\"Instant\":true,\n\t\t\t\t\"AbortTypeabortType\":\"None\",\n\t\t\t\t\"Children\":[{\n\t\t\t\t\t\"Type\":\"BehaviorDesigner.Runtime.Tasks.BehaviorTreeReference\",\n\t\t\t\t\t\"NodeData\":{\n\t\t\t\t\t\t\"Offset\":\"(-67.506485,121.233795)\"\n\t\t\t\t\t},\n\t\t\t\t\t\"ID\":12,\n\t\t\t\t\t\"Name\":\"UI
-        Modal\",\n\t\t\t\t\t\"Instant\":true,\n\t\t\t\t\t\"ExternalBehavior[]externalBehaviors\":[8],\n\t\t\t\t\t\"SharedNamedVariable[]variables\":[],\n\t\t\t\t\t\"Booleancollapsed\":false\n\t\t\t\t},{\n\t\t\t\t\t\"Type\":\"BehaviorDesigner.Runtime.Tasks.BehaviorTreeReference\",\n\t\t\t\t\t\"NodeData\":{\n\t\t\t\t\t\t\"Offset\":\"(54.3830872,121.233826)\",\n\t\t\t\t\t\t\"Comment\":\"\\uc778\\ud48b
-        \\uc784\\uc758 \\uc9c0\\uc815\"\n\t\t\t\t\t},\n\t\t\t\t\t\"ID\":13,\n\t\t\t\t\t\"Name\":\"CameraFocusing\",\n\t\t\t\t\t\"Instant\":true,\n\t\t\t\t\t\"ExternalBehavior[]externalBehaviors\":[9],\n\t\t\t\t\t\"SharedNamedVariable[]variables\":[],\n\t\t\t\t\t\"Booleancollapsed\":false\n\t\t\t\t}]\n\t\t\t}]\n\t\t}]\n\t},\n\t\"DetachedTasks\":[{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.Tasks.BehaviorTreeReference\",\n\t\t\"NodeData\":{\n\t\t\t\"Offset\":\"(-700,190)\"\n\t\t},\n\t\t\"ID\":14,\n\t\t\"Name\":\"Stagger\",\n\t\t\"Instant\":true,\n\t\t\"ExternalBehavior[]externalBehaviors\":[10],\n\t\t\"SharedNamedVariable[]variables\":[],\n\t\t\"Booleancollapsed\":false\n\t},{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.Tasks.BehaviorTreeReference\",\n\t\t\"NodeData\":{\n\t\t\t\"Offset\":\"(-380,190)\",\n\t\t\t\"Comment\":\"\\uc9c0\\uc6b8\\uaebc\\uc57c\"\n\t\t},\n\t\t\"ID\":15,\n\t\t\"Name\":\"LadderTest\",\n\t\t\"Instant\":true,\n\t\t\"ExternalBehavior[]externalBehaviors\":[11],\n\t\t\"SharedNamedVariable[]variables\":[],\n\t\t\"Booleancollapsed\":false\n\t}],\n\t\"Variables\":[{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedGameObject\",\n\t\t\"Name\":\"owner\",\n\t\t\"IsShared\":true,\n\t\t\"GameObjectmValue\":12\n\t},{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedCinemachineCamera\",\n\t\t\"Name\":\"cinemachineCamera\",\n\t\t\"IsShared\":true,\n\t\t\"CinemachineVirtualCameramValue\":13\n\t},{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedGameObject\",\n\t\t\"Name\":\"UIManager\",\n\t\t\"IsShared\":true\n\t},{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedGameObject\",\n\t\t\"Name\":\"EquipmentGameObject\",\n\t\t\"IsShared\":true,\n\t\t\"GameObjectmValue\":14\n\t},{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedGameObject\",\n\t\t\"Name\":\"rigidbody2DGameObject\",\n\t\t\"IsShared\":true,\n\t\t\"GameObjectmValue\":15\n\t},{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedGameObject\",\n\t\t\"Name\":\"equipmentAnimator\",\n\t\t\"IsShared\":true,\n\t\t\"GameObjectmValue\":16\n\t},{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedGameObject\",\n\t\t\"Name\":\"bodyColliderObject\",\n\t\t\"IsShared\":true,\n\t\t\"GameObjectmValue\":17\n\t},{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedGameObject\",\n\t\t\"Name\":\"climber\",\n\t\t\"IsShared\":true,\n\t\t\"GameObjectmValue\":18\n\t},{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedRigidbody2D\",\n\t\t\"Name\":\"rigidbody2D\",\n\t\t\"IsShared\":true,\n\t\t\"Rigidbody2DmValue\":19\n\t},{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedGameObject\",\n\t\t\"Name\":\"inventoryGameObject\",\n\t\t\"IsShared\":true,\n\t\t\"GameObjectmValue\":20\n\t},{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedGameObject\",\n\t\t\"Name\":\"quickSlotGameObject\",\n\t\t\"IsShared\":true,\n\t\t\"GameObjectmValue\":21\n\t},{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedGameObject\",\n\t\t\"Name\":\"equipmentGameObject\",\n\t\t\"IsShared\":true,\n\t\t\"GameObjectmValue\":22\n\t},{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedGameObject\",\n\t\t\"Name\":\"interactorGameObject\",\n\t\t\"IsShared\":true,\n\t\t\"GameObjectmValue\":23\n\t},{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedGameObject\",\n\t\t\"Name\":\"statusGameObject\",\n\t\t\"IsShared\":true,\n\t\t\"GameObjectmValue\":24\n\t},{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedGameObject\",\n\t\t\"Name\":\"rigidbodyController\",\n\t\t\"IsShared\":true,\n\t\t\"GameObjectmValue\":25\n\t},{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedGameObject\",\n\t\t\"Name\":\"detectorGameObject\",\n\t\t\"IsShared\":true,\n\t\t\"GameObjectmValue\":26\n\t},{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedTriggerListEvent2D\",\n\t\t\"Name\":\"landTrigger\",\n\t\t\"IsShared\":true,\n\t\t\"TriggerListEvent2DmValue\":27\n\t},{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedGameObject\",\n\t\t\"Name\":\"crafterGameObject\",\n\t\t\"IsShared\":true,\n\t\t\"GameObjectmValue\":28\n\t},{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedGameObject\",\n\t\t\"Name\":\"equipperGameObject\",\n\t\t\"IsShared\":true,\n\t\t\"GameObjectmValue\":29\n\t},{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedGameObject\",\n\t\t\"Name\":\"throwerGameObject\",\n\t\t\"IsShared\":true,\n\t\t\"GameObjectmValue\":30\n\t},{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedFloat\",\n\t\t\"Name\":\"rollPower\",\n\t\t\"IsShared\":true,\n\t\t\"SinglemValue\":14\n\t},{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedFloat\",\n\t\t\"Name\":\"moveMaxSpeed\",\n\t\t\"IsShared\":true,\n\t\t\"SinglemValue\":10\n\t},{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedFloat\",\n\t\t\"Name\":\"moveAcceleration\",\n\t\t\"IsShared\":true,\n\t\t\"SinglemValue\":100\n\t},{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedFloat\",\n\t\t\"Name\":\"jumpMoveMaxSpeed\",\n\t\t\"IsShared\":true,\n\t\t\"SinglemValue\":5\n\t},{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedFloat\",\n\t\t\"Name\":\"jumpMoveAcceleration\",\n\t\t\"IsShared\":true,\n\t\t\"SinglemValue\":30\n\t},{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedFloat\",\n\t\t\"Name\":\"jumpPower\",\n\t\t\"IsShared\":true,\n\t\t\"SinglemValue\":13\n\t}]\n}"
-      fieldSerializationData:
-        typeName: []
-        fieldNameHash: 
-        startIndex: 
-        dataPosition: 
-        unityObjects:
-        - {fileID: 11400000, guid: a23376a8bd3fbc74f94d8c6cfd9fbf8c, type: 2}
-        - {fileID: 11400000, guid: 0a40f468f8d0f4b02b0bb3dd2e535528, type: 2}
-        - {fileID: 11400000, guid: 596a9b863cd1db146b277ba7d43546b4, type: 2}
-        - {fileID: 11400000, guid: b93dce99650e549c98d8ac9229a25d5b, type: 2}
-        - {fileID: 11400000, guid: 0a4ae7bc942c86243bc902c4a3223d80, type: 2}
-        - {fileID: 11400000, guid: c1a9862aaf10c490393c2694860a238f, type: 2}
-        - {fileID: 11400000, guid: 85edca97ba641ee419fcf31b0c1325a0, type: 2}
-        - {fileID: 11400000, guid: 739261b24182341b2bdb1a946df1e19d, type: 2}
-        - {fileID: 11400000, guid: 854f46b7d53664f35a8f0bad716996a4, type: 2}
-        - {fileID: 11400000, guid: 2dfb4cb0bbeec4671ba8342950064133, type: 2}
-        - {fileID: 11400000, guid: 9d38e51cdc1514eafb01d787a35a2c6e, type: 2}
-        - {fileID: 11400000, guid: 3dc58b06c8e2a4f229621a3c741b4298, type: 2}
-        - {fileID: 5522106745419604350}
-        - {fileID: 6769101503630587120}
-        - {fileID: 5522106745586482037}
-        - {fileID: 5522106745419604350}
-        - {fileID: 5522106745586482037}
-        - {fileID: 5522106744744161540}
-        - {fileID: 5334317228577438523}
-        - {fileID: 5522106745419604338}
-        - {fileID: 5522106744131542262}
-        - {fileID: 5522106744858401459}
-        - {fileID: 5522106744663623587}
-        - {fileID: 5522106744330403853}
-        - {fileID: 5334317227846078343}
-        - {fileID: 5522106745419604350}
-        - {fileID: 5522106743910198147}
-        - {fileID: 5522106743987396633}
-        - {fileID: 5522106745762699476}
-        - {fileID: 5522106744663623587}
-        - {fileID: 5522106744330361872}
-        byteData: 
-        byteDataArray: 
-      Version: 1.6
 --- !u!1 &5522106745419604350
 GameObject:
   m_ObjectHideFlags: 0
@@ -41826,8 +41770,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5522106745419604339}
   - component: {fileID: 5522106745419604338}
-  - component: {fileID: 5522106745419604336}
-  - component: {fileID: 5522106745419604349}
   - component: {fileID: 5522106745419604351}
   m_Layer: 0
   m_Name: BT_MasterPlayer0401
@@ -41845,12 +41787,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 5522106745419604350}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b045947fc8dd62f4b9e7cb7b6a540b47, type: 3}
+  m_Script: {fileID: 11500000, guid: 722b1001daece40d697d903384ab4646, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  staminaRegenerate: {fileID: 0}
-  staminaRegenerateInterval: {fileID: 0}
-  staminaConsumetionRush: {fileID: 0}
+  target: {fileID: 219604388}
+  speed: {x: 10, y: 0, z: 0}
 --- !u!114 &5522106745586482024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41905,7 +41846,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e164c8080333db645adbdb4325afed2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bt: {fileID: 5522106745419604349}
+  bt: {fileID: 0}
   animator: {fileID: 5522106745586482035}
 --- !u!114 &5522106745586482030
 MonoBehaviour:
@@ -51751,7 +51692,7 @@ MonoBehaviour:
   m_XDamping: 0
   m_YDamping: 1
   m_ZDamping: 1
-  m_ScreenX: 0.5
+  m_ScreenX: 0.6219496
   m_ScreenY: 0.7
   m_CameraDistance: 65
   m_DeadZoneWidth: 0
@@ -51889,7 +51830,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6769101504610212884}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.2, y: 1.5055151, z: -65}
+  m_LocalPosition: {x: -16.147858, y: 1.5055151, z: -65}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6769101503630587121}
