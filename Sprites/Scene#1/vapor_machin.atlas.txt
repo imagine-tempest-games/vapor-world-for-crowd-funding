@@ -1,0 +1,55 @@
+
+vapor_machin.png
+size: 8192,4096
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+big_body
+  rotate: true
+  xy: 2, 1590
+  size: 2466, 4494
+  orig: 2466, 4494
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 234
+  size: 2456, 1354
+  orig: 2456, 1354
+  offset: 0, 0
+  index: -1
+circle_left
+  rotate: false
+  xy: 2460, 983
+  size: 604, 605
+  orig: 604, 605
+  offset: 0, 0
+  index: -1
+circle_right
+  rotate: false
+  xy: 4498, 3173
+  size: 932, 883
+  orig: 932, 883
+  offset: 0, 0
+  index: -1
+piston_left
+  rotate: true
+  xy: 2, 2
+  size: 230, 673
+  orig: 230, 673
+  offset: 0, 0
+  index: -1
+piston_mid
+  rotate: false
+  xy: 5432, 3392
+  size: 147, 664
+  orig: 147, 664
+  offset: 0, 0
+  index: -1
+piston_right
+  rotate: false
+  xy: 4498, 2498
+  size: 230, 673
+  orig: 230, 673
+  offset: 0, 0
+  index: -1
