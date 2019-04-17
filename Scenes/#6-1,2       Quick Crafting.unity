@@ -2395,10 +2395,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 41811205, guid: 0432cbe1f331d46dca1f9ce2c04d0e2c, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: acfe5140a33394552a7a06c392828f53, type: 2}
     - target: {fileID: 41811206, guid: 0432cbe1f331d46dca1f9ce2c04d0e2c, type: 3}
       propertyPath: UVModule.sprites.Array.size
       value: 1
@@ -2600,6 +2596,10 @@ PrefabInstance:
       propertyPath: UVModule.frameOverTime.maxCurve.m_Curve.Array.data[1].outWeight
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 41811205, guid: 0432cbe1f331d46dca1f9ce2c04d0e2c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: acfe5140a33394552a7a06c392828f53, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0432cbe1f331d46dca1f9ce2c04d0e2c, type: 3}
 --- !u!1 &322688994
@@ -3762,10 +3762,16 @@ PrefabInstance:
       propertyPath: m_Follow
       value: 
       objectReference: {fileID: 1203423586015350833}
+    - target: {fileID: 5549844784503295215, guid: 5997f658de7fb4347b9797396bfb522b,
+        type: 3}
+      propertyPath: sharedProfile
+      value: 
+      objectReference: {fileID: 11400000, guid: b62b9db03709bed45b360fba979f7f07,
+        type: 2}
     - target: {fileID: 6769101504005414009, guid: 5997f658de7fb4347b9797396bfb522b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.0299993
+      value: 9.302346
       objectReference: {fileID: 0}
     - target: {fileID: 6769101504005414009, guid: 5997f658de7fb4347b9797396bfb522b,
         type: 3}
@@ -3820,19 +3826,13 @@ PrefabInstance:
     - target: {fileID: 6769101505172747408, guid: 5997f658de7fb4347b9797396bfb522b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.0000009536743
+      value: 0.000002861023
       objectReference: {fileID: 0}
     - target: {fileID: 6769101505172747408, guid: 5997f658de7fb4347b9797396bfb522b,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 3.769705
       objectReference: {fileID: 0}
-    - target: {fileID: 5549844784503295215, guid: 5997f658de7fb4347b9797396bfb522b,
-        type: 3}
-      propertyPath: sharedProfile
-      value: 
-      objectReference: {fileID: 11400000, guid: b62b9db03709bed45b360fba979f7f07,
-        type: 2}
     - target: {fileID: 6769101505172747410, guid: 5997f658de7fb4347b9797396bfb522b,
         type: 3}
       propertyPath: m_BoundingShape2D
@@ -8550,10 +8550,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 41811205, guid: 0432cbe1f331d46dca1f9ce2c04d0e2c, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: acfe5140a33394552a7a06c392828f53, type: 2}
     - target: {fileID: 41811206, guid: 0432cbe1f331d46dca1f9ce2c04d0e2c, type: 3}
       propertyPath: UVModule.sprites.Array.size
       value: 1
@@ -8755,6 +8751,10 @@ PrefabInstance:
       propertyPath: UVModule.frameOverTime.maxCurve.m_Curve.Array.data[1].outWeight
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 41811205, guid: 0432cbe1f331d46dca1f9ce2c04d0e2c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: acfe5140a33394552a7a06c392828f53, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0432cbe1f331d46dca1f9ce2c04d0e2c, type: 3}
 --- !u!1001 &959637475
@@ -22978,8 +22978,6 @@ MonoBehaviour:
   staminaRegenerate: {fileID: 0}
   staminaRegenerateInterval: {fileID: 0}
   staminaConsumetionRush: {fileID: 0}
-  weapon: 0
-  mecanim: {fileID: 1203423586810060381}
 --- !u!50 &1203423586015350838
 Rigidbody2D:
   serializedVersion: 4
