@@ -93,7 +93,7 @@ MonoBehaviour:
     value: 0.4
   contrast:
     overrideState: 1
-    value: -4.64
+    value: 15
   mixerRedOutRedIn:
     overrideState: 1
     value: 94.8
@@ -102,7 +102,7 @@ MonoBehaviour:
     value: 5.8
   mixerRedOutBlueIn:
     overrideState: 1
-    value: -4.03
+    value: 6
   mixerGreenOutRedIn:
     overrideState: 0
     value: 0
