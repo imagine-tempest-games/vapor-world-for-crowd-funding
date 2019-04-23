@@ -417,27 +417,15 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Esc : Title
 
-    1 : VaporWorld Machine
+    0 : Taxi
 
-    2 : Taxi
+    1: Cookie
 
-    3: WakeUp (new EOTL)
+    2: EOTL BOSS
 
-    4: WakeUp (new PL)
+    3: Quick Crafting
 
-    5: Cookie
-
-    6: Combat baptism sanctuary
-
-    7: Ledge Climb
-
-    8: EOTL BOSS
-
-    9: Quick Crafting
-
-    0 : Doll Gardener
-
-    F1 : Move by Car'
+    4 : Doll Gardener'
 --- !u!222 &1934979699
 CanvasRenderer:
   m_ObjectHideFlags: 0
