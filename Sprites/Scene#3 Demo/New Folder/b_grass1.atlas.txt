@@ -1,0 +1,34 @@
+
+b_grass1.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 2
+  rotate: false
+  xy: 2, 2
+  size: 395, 108
+  orig: 395, 108
+  offset: 0, 0
+  index: -1
+레이어 7
+  rotate: false
+  xy: 569, 12
+  size: 101, 98
+  orig: 101, 98
+  offset: 0, 0
+  index: -1
+레이어 8
+  rotate: false
+  xy: 672, 49
+  size: 113, 61
+  orig: 113, 61
+  offset: 0, 0
+  index: -1
+레이어 9
+  rotate: false
+  xy: 399, 17
+  size: 168, 93
+  orig: 168, 93
+  offset: 0, 0
+  index: -1
