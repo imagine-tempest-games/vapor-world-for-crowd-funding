@@ -406,13 +406,6 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.06666667
-    functionName: StartAnimationKeyframeEvent
-    data: flying start4
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
   - time: 0.16666667
     functionName: StartAnimationKeyframeEvent
     data: flying start10
@@ -420,14 +413,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.18333334
-    functionName: StartAnimationKeyframeEvent
-    data: flying start11
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 0.28333333
+  - time: 0.28333336
     functionName: StartAnimationKeyframeEvent
     data: flying start17
     objectReferenceParameter: {fileID: 0}
@@ -626,7 +612,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.98333335
+    m_StopTime: 0.9833334
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -672,7 +658,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.98333335
+  - time: 0.9833334
     functionName: StartAnimationKeyframeEvent
     data: idle59
     objectReferenceParameter: {fileID: 0}
