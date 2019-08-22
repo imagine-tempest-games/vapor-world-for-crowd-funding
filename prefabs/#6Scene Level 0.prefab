@@ -131,7 +131,7 @@ SortingGroup:
   m_GameObject: {fileID: 7047095652016102565}
   m_Enabled: 1
   m_SortingLayerID: -1558075665
-  m_SortingLayer: 5
+  m_SortingLayer: 8
   m_SortingOrder: 0
 --- !u!1 &7047095652052737889
 GameObject:
@@ -356,7 +356,7 @@ SortingGroup:
   m_GameObject: {fileID: 7047095652323228628}
   m_Enabled: 1
   m_SortingLayerID: 1689193655
-  m_SortingLayer: 4
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!1 &7047095652486368681
 GameObject:
@@ -410,7 +410,7 @@ SortingGroup:
   m_GameObject: {fileID: 7047095652486368681}
   m_Enabled: 1
   m_SortingLayerID: -277597831
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
 --- !u!1 &7047095652577819216
 GameObject:
@@ -1089,7 +1089,7 @@ SortingGroup:
   m_GameObject: {fileID: 7047095653895062210}
   m_Enabled: 1
   m_SortingLayerID: -1676406625
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!1 &7047095653903126509
 GameObject:
@@ -1148,6 +1148,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -2366,15 +2367,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2337481837715251006, guid: 29fdeeeed416d4c06b21c21f399167ac,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2337481837715251001, guid: 29fdeeeed416d4c06b21c21f399167ac,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337481837715251006, guid: 29fdeeeed416d4c06b21c21f399167ac,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29fdeeeed416d4c06b21c21f399167ac, type: 3}
@@ -4275,6 +4276,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 41811205, guid: 0432cbe1f331d46dca1f9ce2c04d0e2c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: acfe5140a33394552a7a06c392828f53, type: 2}
     - target: {fileID: 41811206, guid: 0432cbe1f331d46dca1f9ce2c04d0e2c, type: 3}
       propertyPath: UVModule.sprites.Array.size
       value: 1
@@ -4476,10 +4481,6 @@ PrefabInstance:
       propertyPath: UVModule.frameOverTime.maxCurve.m_Curve.Array.data[1].outWeight
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 41811205, guid: 0432cbe1f331d46dca1f9ce2c04d0e2c, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: acfe5140a33394552a7a06c392828f53, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0432cbe1f331d46dca1f9ce2c04d0e2c, type: 3}
 --- !u!4 &7047095653660743180 stripped
