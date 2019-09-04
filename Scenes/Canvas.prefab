@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4590515221498387002}
   - component: {fileID: 4590515221498387007}
   - component: {fileID: 4590515221498387000}
-  - component: {fileID: 4590515221498387001}
   m_Layer: 5
   m_Name: fader
   m_TagString: Untagged
@@ -55,7 +54,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4590515221498387003}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -75,21 +74,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &4590515221498387001
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4590515221498387003}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4db9418e2215cad4caf5687d7edcd75a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fadeInOnStart: 0
-  image: {fileID: 4590515221498387000}
-  fadeOutColor: {r: 0, g: 0, b: 0, a: 1}
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &4590515221614215785
 GameObject:
   m_ObjectHideFlags: 0
@@ -160,7 +145,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4590515221614215785}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_UiScaleMode: 0
@@ -182,7 +167,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4590515221614215785}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreReversedGraphics: 1
@@ -231,7 +216,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4590515222523924419}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_FirstSelected: {fileID: 0}
@@ -246,7 +231,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4590515222523924419}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_HorizontalAxis: Horizontal
