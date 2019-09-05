@@ -35,8 +35,9 @@ public class RepeatMovement : MonoBehaviour
     {
         myTrans.Translate(speed * Time.deltaTime);
 
-        float dis  = target.transform.position.x - myTrans.position.x;
-        //float dis = Vector2.Distance(target.transform.position, myTrans.position);
+        float dis  = (target ? target.transform.position.x : 0.0f)
+                    - myTrans.position.x;
+        
         if(Mathf.Abs(dis) <= 1.0f)
         {
             if (spawn)
