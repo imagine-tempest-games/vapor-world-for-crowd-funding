@@ -35,14 +35,17 @@ public class RepeatMovement : MonoBehaviour
     {
         myTrans.Translate(speed * Time.deltaTime);
 
-        float dis  = target.transform.position.x - myTrans.position.x;
-        //float dis = Vector2.Distance(target.transform.position, myTrans.position);
-        if(Mathf.Abs(dis) <= 1.0f)
+        if(target)
         {
-            if (spawn)
-                myTrans.position = spawn.position;
-            else
-                myTrans.position = originPos;
+            float dis = target.transform.position.x - myTrans.position.x;
+       
+            if (Mathf.Abs(dis) <= 1.0f)
+            {
+                if (spawn)
+                    myTrans.position = spawn.position;
+                else
+                    myTrans.position = originPos;
+            }
         }
     }
 }
